@@ -6,10 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "publish": "node upload.service.js",
+    "preview": "vite preview",
+    "jenkins": "npm run build && npm run publish"
   },
   "dependencies": {
+    "ora": "^8.2.0",
     "pinia": "^2.3.1",
+    "scp2": "^0.5.0",
+    "ssh2": "^1.16.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
