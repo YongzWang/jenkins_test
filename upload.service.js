@@ -1,10 +1,10 @@
 
 // 服务器配置信息
 const server = {
-	host: '45.63.16.99', // 服务器ip
+	host: 'xxxxx', // 服务器ip
 	port: '22', // 端口一般默认22
 	username: 'root', // 用户名
-	password: 'wW@258580', // 密码
+	password: 'xxxx', // 密码
 	serverPath: '/www/wwwroot/panel.yongz.cloud/',  // 服务器路径（结尾加/）
 	packageName: 'jenkins', // 上传到服务器的位置
 	localPath:'./dist/' // 本地打包文件路径
