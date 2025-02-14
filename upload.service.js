@@ -11,12 +11,13 @@ const server = {
 }
 
 // 引入scp2
-const client = require('scp2');
-const ora = require('ora');
+import client from 'scp2';
+import ora from 'ora';
 const spinner = ora('正在发布到服务器...');
 
 // 创建shell脚本
-const Client = require('ssh2').Client;
+import {Client} from 'ssh2';
+// const Client = require('ssh2').Client;
 const conn = new Client();
 
 console.log('正在建立连接');
